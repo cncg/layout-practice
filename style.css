@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.section1-wrapper,
+.section2-wrapper,
+.section3-wrapper {
+  height: 400px;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(222, 137, 57);
+  cursor: pointer;
+}
+
+h1,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+header {
+  background-color: rgb(47, 47, 47);
+  color: white;
+
+  padding: 10px 0px 10px 0px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.navbar-links > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: larger;
+
+  width: 600px;
+}
+/** the above code is for the navbar and general styling fixes, below is the baseline button style */
+
+.learn {
+  background-color: rgb(255, 152, 62);
+  color: white;
+
+  border: none;
+  border-radius: 3px;
+  padding: 4px 15px 4px 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+/** below is the code for the first section of the page */
+.section1-wrapper {
+  background-color: rgb(241, 241, 241);
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section1-container {
+  /* border: solid salmon; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+
+  gap: 40px;
+  width: 80%;
+}
+
+.head-img {
+  width: 600px;
+  height: 300px;
+}
+
+.head1 {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: #a32b68;
+  float: right;
+  max-width: 600px;
+  background: -webkit-linear-gradient(top, #000000 0px, #ff9101 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left-content {
+  /* border: solid green; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 20px;
+  height: 300px;
+  width: 50vh;
+}
+
+.subtext {
+  font-size: larger;
+}
+
+/** the below code is for the second section of the page, directly under section one */
+
+.display {
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  width: 500px;
+}
+
+.item-head {
+  font-size: 29px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: #a32b68;
+  max-width: 600px;
+  background: -webkit-linear-gradient(top, rgb(47, 47, 47) 0px, #ec8c0e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  font-size: larger;
+  height: 90px;
+  width: 500px;
+}
+
+.content-head {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  margin: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #a32b68;
+  max-width: 600px;
+  background: -webkit-linear-gradient(top, rgb(47, 47, 47) 0px, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-two {
+  /* border: rebeccapurple solid; */
+  flex-basis: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 55px;
+}
+
+/** below is the styling for the third section, directly above the footer */
+
+.section3-wrapper {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  height: 400px;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3-container {
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 100px;
+}
+
+.testimonial {
+  /* border: solid green; */
+  width: 80%;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: #a32b68;
+  float: right;
+  max-width: 600px;
+  background: -webkit-linear-gradient(top, #ffffff 0px, #ff9101 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quote {
+  /* font-size: 35px; */
+  height: 156px;
+  margin-bottom: 25px;
+}
+
+.author {
+  font-size: 28px;
+  text-align: right;
+}
+
+/** below is the styling for the footer */
+
+footer {
+  background-color: white;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: larger;
+  font-weight: bolder;
+}
