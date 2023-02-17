@@ -209,12 +209,12 @@ header {
 
 .container-two {
   /* border: rebeccapurple solid; */
-  flex-basis: 80%;
+  width: 80%;
 
   display: flex;
   justify-content: center;
   align-items: stretch;
-  gap: 55px;
+  gap: 10px;
 }
 
 /** below is the styling for the third section, directly above the footer */
